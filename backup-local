@@ -1,0 +1,30 @@
+#!/bin/sh
+
+# Nvim
+if [ ! -d ./nvim ]; then
+    echo "nvim directory does not exist, creating a new one..."
+    mkdir nvim
+fi
+cp -a ~/.config/nvim/* ./nvim/
+
+# Tmux
+if [ ! -d ./tmux ]; then
+    echo "tmux directory does not exist, creating a new one..."
+    mkdir tmux
+fi
+cp ~/.tmux.conf ./tmux/tmux.conf
+
+# Alacritty
+if [ ! -d ./alacritty ]; then
+    echo "alacritty directory does not exist, creating a new one..."
+    mkdir alacritty
+fi
+cp -a ~/.config/alacritty/* ./alacritty/
+
+# Git
+if [ ! -d ./git ]; then
+    echo "git directory does not exist, creating a new one..."
+    mkdir git
+fi
+cp ~/.gitconfig ./git/gitconfig
+

@@ -1,0 +1,12 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/github_dark_default.toml"
+]
+
+[font]
+normal = { family = "Jetbrains Mono", style = "Regular" }
+size = 7
+
+[env]
+TERM = "tmux-256color"
+

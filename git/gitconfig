@@ -1,0 +1,6 @@
+[user]
+  email = davidjchavez98@outlook.com
+  name = David Josue Rodríguez Chávez
+
+[includeIf "gitdir:~/vwd/"]
+  path = ~/vwd/.gitconfig
