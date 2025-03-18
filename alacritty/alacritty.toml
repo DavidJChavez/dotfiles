@@ -4,7 +4,7 @@ import = [
 ]
 
 [font]
-normal = { family = "Jetbrains Mono", style = "Regular" }
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
 size = 7
 
 [env]
